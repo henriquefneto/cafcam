@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Tomate Italiano",
+    "salePrice": 6.50,
+    "purchasePrice": 4.20,
+    "unit": "kg",
+    "inventory": 45
+  },
+  {
+    "name": "Banana Prata",
+    "salePrice": 4.00,
+    "purchasePrice": 2.70,
+    "unit": "kg",
+    "inventory": 60
+  },
+  {
+    "name": "Alface Crespa",
+    "salePrice": 3.00,
+    "purchasePrice": 1.80,
+    "unit": "maço",
+    "inventory": 35
+  },
+  {
+    "name": "Cenoura",
+    "salePrice": 5.20,
+    "purchasePrice": 3.10,
+    "unit": "kg",
+    "inventory": 50
+  },
+  {
+    "name": "Batata Inglesa",
+    "salePrice": 4.80,
+    "purchasePrice": 3.30,
+    "unit": "kg",
+    "inventory": 70
+  },
+  {
+    "name": "Maçã Gala",
+    "salePrice": 7.90,
+    "purchasePrice": 5.60,
+    "unit": "kg",
+    "inventory": 40
+  },
+  {
+    "name": "Laranja Pera",
+    "salePrice": 3.50,
+    "purchasePrice": 2.10,
+    "unit": "kg",
+    "inventory": 80
+  },
+  {
+    "name": "Cebola",
+    "salePrice": 4.30,
+    "purchasePrice": 2.90,
+    "unit": "kg",
+    "inventory": 55
+  },
+  {
+    "name": "Abacaxi Pérola",
+    "salePrice": 6.00,
+    "purchasePrice": 4.00,
+    "unit": "unidade",
+    "inventory": 20
+  },
+  {
+    "name": "Couve Manteiga",
+    "salePrice": 2.50,
+    "purchasePrice": 1.50,
+    "unit": "maço",
+    "inventory": 30
+  }
+]

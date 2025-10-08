@@ -1,0 +1,72 @@
+[
+  {
+    "name": "AgroVale Distribuidora",
+    "cpf_cnpj": "12.345.678/0001-90",
+    "city": "Campinas",
+    "phone": "(19) 99876-5432",
+    "email": "contato@agrovale.com.br"
+  },
+  {
+    "name": "HortiCenter LTDA",
+    "cpf_cnpj": "98.765.432/0001-21",
+    "city": "São Paulo",
+    "phone": "(11) 98765-4321",
+    "email": "vendas@horticenter.com"
+  },
+  {
+    "name": "Frutas do Campo",
+    "cpf_cnpj": "33.222.111/0001-56",
+    "city": "Ribeirão Preto",
+    "phone": "(16) 99123-4567",
+    "email": "contato@frutascampo.com.br"
+  },
+  {
+    "name": "Verdureira Bela Vista",
+    "cpf_cnpj": "44.555.666/0001-12",
+    "city": "Curitiba",
+    "phone": "(41) 99777-2233",
+    "email": "contato@belavista.com"
+  },
+  {
+    "name": "Sítio Bom Jardim",
+    "cpf_cnpj": "55.666.777/0001-34",
+    "city": "Londrina",
+    "phone": "(43) 99988-7766",
+    "email": "vendas@sitiobomjardim.com"
+  },
+  {
+    "name": "Natural Fresh",
+    "cpf_cnpj": "66.777.888/0001-56",
+    "city": "Florianópolis",
+    "phone": "(48) 99111-2233",
+    "email": "atendimento@naturalfresh.com.br"
+  },
+  {
+    "name": "Orgânicos Brasil",
+    "cpf_cnpj": "77.888.999/0001-45",
+    "city": "Belo Horizonte",
+    "phone": "(31) 99222-3344",
+    "email": "contato@organicosbrasil.com"
+  },
+  {
+    "name": "Terra Viva Alimentos",
+    "cpf_cnpj": "88.999.000/0001-89",
+    "city": "Uberlândia",
+    "phone": "(34) 99555-6677",
+    "email": "suporte@terraviva.com.br"
+  },
+  {
+    "name": "Distribuidora Campos Verdes",
+    "cpf_cnpj": "99.000.111/0001-32",
+    "city": "Goiânia",
+    "phone": "(62) 99333-2211",
+    "email": "distribuicao@camposverdes.com"
+  },
+  {
+    "name": "AgroFrut Comércio",
+    "cpf_cnpj": "11.222.333/0001-44",
+    "city": "Fortaleza",
+    "phone": "(85) 99666-7788",
+    "email": "contato@agrofrut.com.br"
+  }
+]
