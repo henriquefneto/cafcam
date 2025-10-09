@@ -14,22 +14,22 @@ Atualmente, o foco está em oferecer uma interface limpa e funcional, garantindo
 
 ## 🧩 Funcionalidades Atuais
 
-✅ **Cadastro de Produtos**
-- Permite adicionar novos produtos com informações básicas (nome, categoria, descrição, etc.).
-- Armazena os dados localmente (ou em banco de dados integrado, se configurado).
+✅ **Cadastro de Produtos**  
+- Permite adicionar novos produtos com informações básicas (nome, categoria, descrição, etc.).  
+- Armazena os dados localmente (ou em banco de dados integrado, se configurado).  
 
-✅ **Listagem de Produtos**
-- Exibe todos os produtos cadastrados com visual moderno.
-- Opção de visualizar detalhes básicos de cada item.
+✅ **Listagem de Produtos**  
+- Exibe todos os produtos cadastrados com visual moderno.  
+- Opção de visualizar detalhes básicos de cada item.  
 
-✅ **Cadastro de Fornecedores**
-- Registra informações de fornecedores (nome, telefone, e-mail e outros dados importantes).
+✅ **Cadastro de Fornecedores**  
+- Registra informações de fornecedores (nome, telefone, e-mail e outros dados importantes).  
 
-✅ **Listagem de Fornecedores**
-- Mostra os fornecedores cadastrados de forma organizada.
+✅ **Listagem de Fornecedores**  
+- Mostra os fornecedores cadastrados de forma organizada.  
 
-✅ **Página de Perfil**
-- Exibe informações do usuário (foto/avatar, nome, telefone e e-mail).
+✅ **Página de Perfil**  
+- Exibe informações do usuário (foto/avatar, nome, telefone e e-mail).  
 
 ---
 
@@ -39,7 +39,7 @@ Atualmente, o foco está em oferecer uma interface limpa e funcional, garantindo
 🔸 Autenticação de usuários (login e cadastro)  
 🔸 Controle de estoque e relatórios de vendas  
 🔸 Dashboard financeiro da cooperativa  
-🔸 Sistema de notificações e lembretes
+🔸 Sistema de notificações e lembretes  
 
 ---
 
@@ -49,6 +49,7 @@ Atualmente, o foco está em oferecer uma interface limpa e funcional, garantindo
 - **Expo Router** (navegação entre páginas)
 - **TypeScript**
 - **@expo/react-native-action-sheet**
+- **Tailwind CSS / NativeWind** (estilização)
 - **React Native Safe Area Context**
 
 ---
@@ -68,6 +69,35 @@ O design do app é inspirado na logo oficial da CAFCAM, utilizando uma **paleta 
 
 ## ⚙️ Como Executar o Projeto
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/henriquefneto/cafcam.git
+### 🧰 Pré-requisitos
+
+Antes de começar, certifique-se de ter instalado:
+- [Node.js](https://nodejs.org/) (versão LTS recomendada)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- [Git](https://git-scm.com/)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install/)
+- Um editor de código como [VS Code](https://code.visualstudio.com/)
+
+---
+
+### 💻 Passo a passo para executar o app
+
+#### 1️⃣ Clonar o repositório
+
+```bash
+git clone https://github.com/henriquefneto/cafcam.git
+
+#### 2️⃣ Acessar o diretório do projeto
+
+```bash
+cd cafcam
+
+#### 3️⃣ Instalar as dependências
+
+```bash
+yarn install
+
+#### 4️⃣ Executar o aplicativo
+
+```bash
+yarn expo start
