@@ -14,6 +14,10 @@ Atualmente, o foco está em oferecer uma interface limpa e funcional, garantindo
 
 ## 🧩 Funcionalidades Atuais
 
+✅ **Página inicial**  
+- Página inicial com botões para as outras abas do app.
+  <img width="378" height="784" alt="image" src="https://github.com/user-attachments/assets/dcdfe928-8055-42df-a9d0-a7017de7c414" />
+
 ✅ **Cadastro de Produtos**  
 - Permite adicionar novos produtos com informações básicas (nome, categoria, descrição, etc.).  
 - Armazena os dados localmente (ou em banco de dados integrado, se configurado).  
