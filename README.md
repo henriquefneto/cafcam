@@ -16,30 +16,47 @@ Atualmente, o foco está em oferecer uma interface limpa e funcional, garantindo
 
 ✅ **Página inicial**  
 - Página inicial com botões para as outras abas do app.
-  <img width="378" height="784" alt="image" src="https://github.com/user-attachments/assets/dcdfe928-8055-42df-a9d0-a7017de7c414" />
+  
+<img width="278" height="680" alt="Captura de tela 2025-10-08 214500" src="https://github.com/user-attachments/assets/2a66e6d7-7026-41e8-ac82-24cf4fe0fea2" />
+
 
 ✅ **Cadastro de Produtos**  
 - Permite adicionar novos produtos com informações básicas (nome, categoria, descrição, etc.).  
-- Armazena os dados localmente (ou em banco de dados integrado, se configurado).  
+- Armazena os dados localmente (ou em banco de dados integrado, se configurado).
+
+<img width="278" height="680" alt="image" src="https://github.com/user-attachments/assets/dc509748-326c-4909-9ae9-55c776bab04a" />
+
 
 ✅ **Listagem de Produtos**  
 - Exibe todos os produtos cadastrados com visual moderno.  
-- Opção de visualizar detalhes básicos de cada item.  
+- Opção de visualizar detalhes básicos de cada item.
+
+<img width="278" height="680" alt="image" src="https://github.com/user-attachments/assets/44809792-ce12-4c24-889b-fdee3a59d49b" />
+
 
 ✅ **Cadastro de Fornecedores**  
-- Registra informações de fornecedores (nome, telefone, e-mail e outros dados importantes).  
+- Registra informações de fornecedores (nome, telefone, e-mail e outros dados importantes).
+
+<img width="278" height="680" alt="image" src="https://github.com/user-attachments/assets/bab6328e-efef-4a71-9741-77bef2af26dc" />
+
 
 ✅ **Listagem de Fornecedores**  
 - Mostra os fornecedores cadastrados de forma organizada.  
 
+<img width="278" height="680" alt="image" src="https://github.com/user-attachments/assets/87928a0a-15c8-4915-a55a-031f9cf7106b" />
+
+
 ✅ **Página de Perfil**  
-- Exibe informações do usuário (foto/avatar, nome, telefone e e-mail).  
+- Exibe informações do usuário (foto/avatar, nome, telefone e e-mail).
+
+<img width="278" height="680" alt="image" src="https://github.com/user-attachments/assets/2948fb4a-427c-4211-a7a2-809a87b560bc" />
+
 
 ---
 
 ## 🚀 Futuras Implementações
 
-🔸 Integração com banco de dados remoto (Firebase ou Supabase)  
+🔸 Integração com banco de dados remoto
 🔸 Autenticação de usuários (login e cadastro)  
 🔸 Controle de estoque e relatórios de vendas  
 🔸 Dashboard financeiro da cooperativa  
@@ -53,7 +70,6 @@ Atualmente, o foco está em oferecer uma interface limpa e funcional, garantindo
 - **Expo Router** (navegação entre páginas)
 - **TypeScript**
 - **@expo/react-native-action-sheet**
-- **Tailwind CSS / NativeWind** (estilização)
 - **React Native Safe Area Context**
 
 ---
@@ -67,7 +83,6 @@ O design do app é inspirado na logo oficial da CAFCAM, utilizando uma **paleta 
 | 🌿 Verde Claro | `#A8E6A1` | Fundo principal do app |
 | 🌱 Verde Médio | `#6EDC5F` | Botões e destaques |
 | 🌾 Verde Escuro | `#2E7D32` | Textos e cabeçalhos |
-| ☀️ Amarelo Claro | `#F5E663` | Ícones e detalhes visuais |
 
 ---
 
