@@ -86,16 +86,19 @@ Antes de começar, certifique-se de ter instalado:
 
 ```bash
 git clone https://github.com/henriquefneto/cafcam.git
+```
 
 #### 2️⃣ Acessar o diretório do projeto
 
 ```bash
 cd cafcam
+```
 
 #### 3️⃣ Instalar as dependências
 
 ```bash
 yarn install
+```
 
 #### 4️⃣ Executar o aplicativo
 
