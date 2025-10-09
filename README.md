@@ -70,4 +70,4 @@ O design do app é inspirado na logo oficial da CAFCAM, utilizando uma **paleta 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/cafcam-app.git
+   git clone https://github.com/henriquefneto/cafcam.git
