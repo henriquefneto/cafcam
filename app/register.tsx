@@ -24,7 +24,7 @@ export default function _screen() {
 
   return (
     <View style={global.container}>
-      <Text style={global.title}>CAFCAM</Text>
+      <Text style={global.title}>Registro</Text>
 
       <TextInput
         style={global.input}
@@ -50,7 +50,7 @@ export default function _screen() {
         }}
         style={{ marginTop: 12 }}
       />
-      <Text onPress={() => router.navigate("/register")}>Register</Text>
+      <Text onPress={() => router.navigate("/")}>Login</Text>
     </View>
   );
 }
