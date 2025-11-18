@@ -10,11 +10,8 @@ import useFirebase from "./useFirebase";
 
 export type Book = {
   id?: string;
-  name: string;
-  salePrice: number;
-  purchasePrice: number;
-  unit: string;
-  inventory: number;
+  title: string;
+  pages: number;
 };
 
 /**

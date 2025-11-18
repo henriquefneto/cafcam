@@ -15,12 +15,16 @@ import { Ionicons } from "@expo/vector-icons";
 import global from "@/assets/styles/global";
 import dataMock from "../../services/MOCK_DATA.json";
 import { theme } from "@/assets/styles/colors";
+import useCollection from "@/firebase/hooks/useCollection";
+import useDocument from "@/firebase/hooks/useDocument";
 
 export default function Index() {
   const { showActionSheetWithOptions } = useActionSheet();
   const [data, setData] = useState(dataMock);
   const [search, setSearch] = useState("");
   const [filteredData, setFilteredData] = useState(dataMock);
+
+  const { create, update, remove } = useCollection("products");
 
   const [modalVisible, setModalVisible] = useState(false);
   const [newProduct, setNewProduct] = useState({
@@ -120,9 +124,7 @@ export default function Index() {
             onPress={() => handleItemPress(item)}
           >
             <Text style={global.title}>{item.name}</Text>
-            <Text style={global.content}>
-              Valor de Venda: {item.salePrice}
-            </Text>
+            <Text style={global.content}>Valor de Venda: {item.salePrice}</Text>
             <Text style={global.content}>
               Valor de Compra: {item.purchasePrice}
             </Text>
@@ -155,6 +157,13 @@ export default function Index() {
               onChangeText={(text) =>
                 setNewProduct({ ...newProduct, salePrice: text })
               }
+              onPress={async () => {
+                try {
+                  await create(setNewProduct);
+                } catch (error: any) {
+                  Alert.alert("Login error", error.toString());
+                }
+              }}
             />
             <TextInput
               style={styles.input}
@@ -195,8 +204,6 @@ export default function Index() {
 }
 
 const styles = StyleSheet.create({
-
-
   addButton: {
     marginLeft: 10,
     backgroundColor: theme.colors.primary,

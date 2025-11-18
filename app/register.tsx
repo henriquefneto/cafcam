@@ -8,11 +8,11 @@ import StyledButton from "../components/StyledButton";
 import useAuth from "../firebase/hooks/useAuth";
 
 export default function _screen() {
-  const { user, login, loading } = useAuth();
+  const { user, loading, registerUser } = useAuth();
   const router = useRouter();
 
-  const [email, setEmail] = useState("teste@gmail.com");
-  const [password, setPassword] = useState("123456");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   useEffect(() => {
     if (user) {
@@ -39,11 +39,11 @@ export default function _screen() {
       />
 
       <StyledButton
-        title="Login"
+        title="Registrar"
         onPress={async () => {
           try {
-            await login(email, password);
-            router.push("/home");
+            await registerUser(email, password);
+            router.push("/");
           } catch (error: any) {
             Alert.alert("Login error", error.toString());
           }
